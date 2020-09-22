@@ -1,0 +1,6 @@
+seird model
+-----------
+- dodati dodatni parameter - direktni transmisijski faktor
+- realizirat da faktor transmisije bude ili predefinirana vrijednost (najvjerojatnije 0.5, pricekat reference) ili callable u slucaju da ga unaprijed
+- accuracy za pcr test (ili kroz preciznost ili kroz osjetljivost i specificnost)
+- prema identificiranim parametrima SEIRD modela prvog vala (25.2. do 1.6), modelirati drugi val (1.6 pa na dalje)
