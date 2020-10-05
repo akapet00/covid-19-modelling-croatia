@@ -19,12 +19,9 @@ def configure():
     
 
 def default_colors(color):
-    b, o, g, r = plt.rcParams['axes.prop_cycle'].by_key()['color'][:4]
-    if color in ['blue', 'b']:
-        return b
-    elif color in ['orange', 'o']:
-        return o
-    elif color in ['green', 'g']:
-        return g
-    elif color in ['red', 'r']:
-        return r
+    color_list = ['blue', 'orange', 'green', 'red', 'purple', 'brown',
+                  'magenta', 'grey', 'yellow', 'cyan']
+    if color in color_list:
+        color_idx = color_list.index(color)
+        hex_col = plt.rcParams['axes.prop_cycle'].by_key()['color'][color_idx]
+    return hex_col
