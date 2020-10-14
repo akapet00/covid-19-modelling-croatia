@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 
-def configure():
+def configure(grid=True):
     plt.style.use('seaborn-whitegrid')
     plt.rcParams.update({
         'pgf.texsystem': 'pdflatex',
@@ -9,7 +9,7 @@ def configure():
         'font.family': 'serif',
         'font.size': 12,
         'axes.labelsize': 12,
-        'axes.grid': True,
+        'axes.grid': grid,
         'grid.linewidth': 0.7,
         'legend.fontsize': 10,
         'xtick.labelsize': 10,
