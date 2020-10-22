@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# internal datasets
+data/raw_data_cro.xlsx
+data/clean_data_cro.csv
+data/1st_wave_age_grouped_data_cro.csv
