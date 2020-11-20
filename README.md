@@ -1,6 +1,6 @@
-# Analysis of the first wave COVID-19 pandemic in Croatia
+# Analysis of the first wave of the COVID-19 pandemic in Croatia
 
-This repo serves as an official code base for the paper titled `Analysis of the first wave COVID-19 pandemic in Croatia` published in Croatian Medical Journal.
+This repo serves as an official code base for the paper to appear in Croatian Medical Journal.
 
 ## Overview
 Analysis, parameter identification and simulation of the first wave (mid Feb - Jun) of COVID-19 outbreak in Croatia using deterministic SEIR(D) and Heidler exponential functions.
