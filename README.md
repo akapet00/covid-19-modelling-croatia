@@ -35,9 +35,8 @@ In `cmj-covid-19-paper` go to `notebooks` directory and start `jupyter notebook`
 `tba`
 
 ## Authors
-* Ozren Polašek, the first author of the paper
-* Ante Lojić Kapetanović, the main developer and the second author
-* Dragan Poljak, the third author
+
+`tba`
 
 ## License
 The code is under the [BSD 3-Clause](https://github.com/antelk/cmj-covid-19-paper/blob/master/LICENSE) license. Processed data are publicaly available in the `data` directory, except the raw data which is properietary.
