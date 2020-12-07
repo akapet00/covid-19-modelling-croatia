@@ -2,9 +2,8 @@ import matplotlib.pyplot as plt
 
 
 def configure(grid=True):
-    plt.style.use('seaborn-whitegrid')
+    plt.style.use('seaborn-white')
     plt.rcParams.update({
-        'pgf.texsystem': 'pdflatex',
         'text.usetex': True,
         'font.family': 'serif',
         'font.size': 12,
