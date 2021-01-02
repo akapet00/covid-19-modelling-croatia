@@ -1,12 +1,17 @@
-# Analysis of the first wave of the COVID-19 pandemic in Croatia
+# covid-19-modelling-croatia
 
-This repo serves as an official code base for the paper to appear in Croatian Medical Journal.
+This repository serves as an official code base for the work-in-progress paper titled -- Modelling the SARS-CoV-2 epidemic in Croatia: a comparison of three analytic approaches), to appear in Croatian Medical Journal (CMJ).
+
 
 ## Overview
+
 Analysis, parameter identification and simulation of the first wave (mid Feb - Jun) of COVID-19 outbreak in Croatia using deterministic SEIR(D) and Heidler exponential functions.
 
+
 ## Reproduce the results
+
 ### The working environment
+
 Clone the repo to your local machine:
 ```shell
 $ git clone https://github.com/antelk/cmj-covid-19-paper.git
@@ -27,16 +32,22 @@ Go to `covid-19` directory and run:
 ```shell
 $ pip install .
 ```
+
+
 ### Running the examples
-In `cmj-covid-19-paper` go to `notebooks` directory and start `jupyter notebook` or `jupyter lab`. 
+
+Go to `notebooks` directory and start `jupyter notebook` or `jupyter lab`. 
+
 
 ## Cite
 
-`tba`
+to-be-added
+
 
 ## Authors
 
-`tba`
+to-be-added
 
 ## License
+
 The code is under the [BSD 3-Clause](https://github.com/antelk/cmj-covid-19-paper/blob/master/LICENSE) license. Processed data are publicaly available in the `data` directory, except the raw data which is properietary.
