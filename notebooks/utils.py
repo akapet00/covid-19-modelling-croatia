@@ -2,17 +2,17 @@ import matplotlib.pyplot as plt
 
 
 def configure(grid=True):
-    plt.style.use('seaborn-paper')
+    #plt.style.use('seaborn-paper')
     plt.rcParams.update({
         'text.usetex': True,
         'font.family': 'serif',
-        'font.size': 12,
-        'axes.labelsize': 12,
+        'font.size': 14,
+        'axes.labelsize': 14,
         'axes.grid': grid,
         'grid.linewidth': 0.7,
-        'legend.fontsize': 12,
-        'xtick.labelsize': 12,
-        'ytick.labelsize': 12,
+        'legend.fontsize': 14,
+        'xtick.labelsize': 14,
+        'ytick.labelsize': 14,
         'figure.figsize': (4.774, 2.950)
     })
     
