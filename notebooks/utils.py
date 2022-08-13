@@ -15,7 +15,7 @@ def configure(grid=True):
         'ytick.labelsize': 14,
         'figure.figsize': (4.774, 2.950)
     })
-    
+
 
 def default_colors(color):
     color_list = ['blue', 'orange', 'green', 'red', 'purple', 'brown',
