@@ -1,6 +1,7 @@
 dependencies:
-  - python=3.8
-  - matplotlib
-  - numpy
-  - scipy
-  - jupyter
+  - python=3.9
+  - matplotlib=3.5.2
+  - numpy=1.22.4
+  - scipy=1.8.1
+  - pandas=1.4.2
+  - jupyterlab=3.4.2
